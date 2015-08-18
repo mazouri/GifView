@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GifView">
+        <attr name="src" format="integer"/>
+        <attr name="speed">
+            <flag name="slow" value="0x0"/>
+            <flag name="normal" value="0x1"/>
+            <flag name="fast" value="0x2"/>
+        </attr>
+        <attr name="gif_stop" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="GifMovieView">
+        <attr name="gif" format="reference"/>
+        <attr name="paused" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="GifMovieViewTheme">
+        <attr name="gifMovieViewStyle" format="reference"/>
+    </declare-styleable>
+</resources>
